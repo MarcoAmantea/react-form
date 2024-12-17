@@ -32,7 +32,7 @@ function App() {
       </div>
       {(post.length > 0) ? post.map(curPost => <div key={curPost.id}>
         <h3 className="text-center text-white">ASCOLTATE TUTTI! ECCO IL TUO NUOVO ARTICOLO!</h3>
-        <div className="text-center mb-3"><img src="../public/wp-16278334959737740266667711549875.jpg" alt="" /></div>
+        <div className="text-center mb-3"><img src="../public/wp-16278334959737740266667711549875.png" alt="" /></div>
         <div class="card container">
           <div class="card-body text-center">
             {curPost.title}
