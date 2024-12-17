@@ -6,3 +6,6 @@ body{
     font-weight: <weight>;
     font-style: normal;;
 }
+img{
+    width: 100px;
+}
